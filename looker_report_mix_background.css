@@ -68,7 +68,7 @@ th.headerCell {
 }
 
 .reportTable thead tr:nth-child(2) th.headerCell {
-  top: 20px;
+  top: 16px;
   z-index: 100;
 }
 
