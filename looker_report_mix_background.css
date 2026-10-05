@@ -89,11 +89,20 @@ th.headerCell {
   background-color: #009797 !important;
 }
 
+
 .headerCell.pivot.headerRow {
-position: sticky;
-top: 0;
-z-index: 101;
-background-color: #009797 !important;
+  position: sticky;
+  top: 0;
+  z-index: 101;
+  background-color: #009797 !important;
+}
+
+.headerCell.measure.headerRow,
+.headerCell.dimension.headerRow {
+  position: sticky;
+  top: 32px;
+  z-index: 100;
+  background-color: #009797 !important;
 }
 
 /* .headerCell.dimension.headerRow {
