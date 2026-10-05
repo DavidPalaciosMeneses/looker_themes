@@ -61,6 +61,17 @@ th.headerCell {
   color: white !important;
 }
 
+/* Nueva configuración */
+.reportTable thead tr:nth-child(1) th.headerCell {
+  top: 0;
+  z-index: 101;
+}
+
+.reportTable thead tr:nth-child(2) th.headerCell {
+  top: 32px;
+  z-index: 100;
+}
+
 .headerCell.dimension {
   background-color: #009797;
   border-right: 1px solid #BDC3C7; 
@@ -89,21 +100,6 @@ th.headerCell {
   background-color: #009797 !important;
 }
 
-
-.headerCell.pivot.headerRow {
-  position: sticky;
-  top: 0;
-  z-index: 101;
-  background-color: #009797 !important;
-}
-
-.headerCell.measure.headerRow,
-.headerCell.dimension.headerRow {
-  position: sticky;
-  top: 32px;
-  z-index: 100;
-  background-color: #009797 !important;
-}
 
 /* .headerCell.dimension.headerRow {
   background-color: #ccd8e4;
